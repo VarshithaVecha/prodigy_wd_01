@@ -1,0 +1,51 @@
+body {
+    background-image :url(box.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:initial;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-colour 0.3s;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    transition: blackground-color 0.3s, color 0.3s;    
+}
+nav ul li a:hover {
+    font-family: "Lakki Reddy", serif;;
+    background-color: #555;
+    color: #fff;
+}
+.content{
+    margin-top: 60px;
+    padding: 20px;
+}
+section{
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
